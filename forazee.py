@@ -9,23 +9,13 @@ import uuid
 os.system('git pull')
 os.system('pkg install curl')
 
-logo = (""""\033[132mFFFFFFFFFFFFFFFFFFFFFF     OOOOOOOOO     RRRRRRRRRRRRRRRRR                  AAA               ZZZZZZZZZZZZZZZZZZZEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-F::::::::::::::::::::F   OO:::::::::OO   R::::::::::::::::R                A:::A              Z:::::::::::::::::ZE::::::::::::::::::::EE::::::::::::::::::::E
-F::::::::::::::::::::F OO:::::::::::::OO R::::::RRRRRR:::::R              A:::::A             Z:::::::::::::::::ZE::::::::::::::::::::EE::::::::::::::::::::E
-FF::::::FFFFFFFFF::::FO:::::::OOO:::::::ORR:::::R     R:::::R            A:::::::A            Z:::ZZZZZZZZ:::::Z EE::::::EEEEEEEEE::::EEE::::::EEEEEEEEE::::E
-  F:::::F       FFFFFFO::::::O   O::::::O  R::::R     R:::::R           A:::::::::A           ZZZZZ     Z:::::Z    E:::::E       EEEEEE  E:::::E       EEEEEE
-    F:::::F             O:::::O     O:::::O  R::::R     R:::::R          A:::::A:::::A                  Z:::::Z      E:::::E               E:::::E             
-      F::::::FFFFFFFFFF   O:::::O     O:::::O  R::::RRRRRR:::::R          A:::::A A:::::A                Z:::::Z       E::::::EEEEEEEEEE     E::::::EEEEEEEEEE   
-        F:::::::::::::::F   O:::::O     O:::::O  R:::::::::::::RR          A:::::A   A:::::A              Z:::::Z        E:::::::::::::::E     E:::::::::::::::E   
-          F:::::::::::::::F   O:::::O     O:::::O  R::::RRRRRR:::::R        A:::::A     A:::::A            Z:::::Z         E:::::::::::::::E     E:::::::::::::::E   
-            F::::::FFFFFFFFFF   O:::::O     O:::::O  R::::R     R:::::R      A:::::AAAAAAAAA:::::A          Z:::::Z          E::::::EEEEEEEEEE     E::::::EEEEEEEEEE   
-              F:::::F             O:::::O     O:::::O  R::::R     R:::::R     A:::::::::::::::::::::A        Z:::::Z           E:::::E               E:::::E             
-                F:::::F             O::::::O   O::::::O  R::::R     R:::::R    A:::::AAAAAAAAAAAAA:::::A    ZZZ:::::Z     ZZZZZ  E:::::E       EEEEEE  E:::::E       EEEEEE
-                FF:::::::FF           O:::::::OOO:::::::ORR:::::R     R:::::R   A:::::A             A:::::A   Z::::::ZZZZZZZZ:::ZEE::::::EEEEEEEE:::::EEE::::::EEEEEEEE:::::E
-                F::::::::FF            OO:::::::::::::OO R::::::R     R:::::R  A:::::A               A:::::A  Z:::::::::::::::::ZE::::::::::::::::::::EE::::::::::::::::::::E
-                F::::::::FF              OO:::::::::OO   R::::::R     R:::::R A:::::A                 A:::::A Z:::::::::::::::::ZE::::::::::::::::::::EE::::::::::::::::::::E
-                FFFFFFFFFFF                OOOOOOOOO     RRRRRRRR     RRRRRRRAAAAAAA                   AAAAAAAZZZZZZZZZZZZZZZZZZZEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-                \033[1;37m\n""")
+logo = (""""\033[132m.___________..______    _______ 
+|           ||   _  \  |   ____|
+`---|  |----`|  |_)  | |  |__   
+    |  |     |   _  <  |   __|  
+    |  |     |  |_)  | |  |     
+    |__|     |______/  |__|     
+                                \033[1;37m\n""")
 def ud():
     os.system('clear')
     jalan(logo)
